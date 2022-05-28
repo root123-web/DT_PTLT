@@ -1,0 +1,522 @@
+
+
+.header{
+    display: flex;
+    
+}
+.header .header-list{
+    display:flex;
+}
+.header .header-img{
+    width: 104px;
+}
+.header .header-item p{
+    position: relative;
+    font-size: 22px;
+    padding: 3vh 1vw;
+    margin: 0;
+    font-weight: 600;
+}
+.header .header-item:hover p{
+    background-color: rgb(231, 226, 226);
+    color: #00b14f;
+    cursor: pointer;
+}
+.header .header-item:hover .sub-header{
+    display: block;
+}
+.header .header-icon{
+    padding: 3vh 1vw;
+}
+.sub-header{
+    position: absolute;
+    display: none;
+    padding-top: 16px;
+    top: 50px;
+}
+.sub-content{
+    display: flex;
+    width: 120%;
+    margin-bottom: 10px;
+    padding: 2vh 0vw;
+}
+.sub-content:hover{
+    color: #00b14f;
+    background: #efeeeeb8
+}
+.sub-icon{
+    margin-right: 12px;
+}
+.sub-text{
+    font-size: 18px;
+}
+
+.sub-header-img{
+    position: absolute;
+    top: 12px;
+    left: 254px;
+    height: 90%;
+    border-radius: 8px;
+}
+
+
+.body{
+    position: relative;
+}
+/* .chat{
+    width: 16vw;
+    height: 10vh;
+    background-color:#03a84e;
+    text-align: center;
+    line-height:10vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color:#fff;
+    border-radius:10px;
+} */
+.chat:hover{
+    cursor: pointer;
+    /* background-color:#00c257; */
+    color:#000000;
+    /* border: 2px solid rgb(214, 78, 78); */
+}
+
+.close{
+    position: absolute;
+    display: block;
+    right: 1vw;
+    top: 2vh;
+    font-size:24px;
+    padding-bottom: 2vh;
+    /* width: 100%; */
+}
+
+.close:hover{
+  cursor: pointer;
+}
+.support-chat{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 22vw;
+  background-color: #03a84e;
+  text-align: center;
+  border-radius: 10px;
+  display: none;
+
+}
+.text-chat{
+  color: #fffad1;
+  padding: 3vh 1vw;
+  padding-top: 6vh;
+  font-size: 20px;
+  width: 18vw;
+  margin: auto ;
+
+}
+.form-chat{
+    background-color: #ccc;
+    padding-bottom:2vh;
+}
+.form-chat input{
+  border:0;
+  border-radius: 5px;
+  margin-top:2vh;
+  width: 18vw;
+  height: 6vh;
+}
+
+.btn-chat{
+  background-color:#03a84e;
+  color: #fffad1;
+  width: 14vw;
+  height: 6vh;
+  border-radius:10px;
+  text-align: center;
+  line-height: 6vh;
+  margin: 0 auto;
+  margin-top: 4vh;
+}
+
+.btn-chat:hover{
+  cursor: pointer;
+  background-color:#4faa78;
+  color:#000000;
+}
+.begin-chat{
+  position: fixed;
+  background-color:#ccc;
+  height:60vh;
+  width: 22vw;
+  display:none;
+  right: 0;
+  bottom: 0;
+  border-radius:10px;
+}
+.begin-chat p{
+  margin-left: 16px;
+}
+.content-chat{
+  background-color:#f2f2f2;
+}
+.form-input-chat{
+  display:flex;
+}
+.input-chat{
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  height:6vh;
+  border: 0;
+  background-color:#f2f2f2;
+}
+.content-chat {
+  background-color: #f2f2f2;
+ width: 100%;
+ height: 72%;
+ overflow-y: scroll;
+ display: flex;
+ flex-direction: column-reverse;
+ align-items: flex-end;
+ padding: 0 0 0 5px;
+
+}
+.content-chat li{
+  background-color: #5880ec;
+  margin: 5px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+.div1{
+    
+    background: fixed;
+    background-image: url(D:\baitapcuathao\image\background1.jpg);
+   
+}
+.tieude{
+    position:absolute;
+    top:95px;
+    left:780px;
+    right: 170;
+    border: 3px;
+    color: rgb(7, 136, 50);
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.thanhvien{
+    position:absolute;
+    top:280px;
+    left:890px;
+    color: rgb(244, 250, 250);
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.slogan{
+    position:absolute;
+    top:184px;
+    left:930;
+    color: rgb(244, 250, 250);
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.congs{
+    position:absolute;
+    top:400;
+    left:800;
+}
+.cong{
+    position:absolute;
+    top:485;
+    left:820;
+}
+.huys{
+    position:absolute;
+    top:850;
+    left:800;
+}
+.huy{
+    position:absolute;
+    top:994;
+    left:820;
+}
+.kiens{
+    position:absolute;
+    top:400;
+    left:1150;
+}
+
+.kien{
+    position:absolute;
+    top:453;
+    left:1190;}
+
+.thaos{
+    position:absolute;
+    top:850;
+    left:1150;}
+
+    .thao{
+        position:absolute;
+        top:930;
+        left:1190;}
+    
+.nut1{
+    position:absolute;
+    top:700;
+    left:850;
+    background-color: rgb(114, 178, 189);
+    color: rgb(242, 248, 245);
+    border-color: #bbb;
+    border-width: 5px!important;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+
+.nut2{
+    position:absolute;
+    top:1153;
+    left:860;
+    background-color: rgb(114, 178, 189);
+    color: aliceblue;
+    border-color: #bbb;
+    border-width: 5px!important;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+
+.nut3{
+    position:absolute;
+    top:700;
+    left:1214;
+    background-color: rgb(114, 178, 189);
+    color: aliceblue;
+    border-color: #bbb;
+    border-width: 5px!important;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+
+.nut4{
+    position:absolute;
+    top:1153;
+    left:1210;
+    background-color: rgb(114, 178, 189);
+    color: aliceblue;
+    border-color: #bbb;
+    border-width: 5px!important;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+
+.nut1:hover{
+    background-color: brown;
+}
+
+.nut2:hover{
+    background-color: brown;
+}
+.nut3:hover{
+    background-color: brown;
+}
+.nut4:hover{
+    background-color: brown;
+}
+
+.nut1 .nut2 .nut3 .nut4:active {
+    transform: rotate3d(1,1,30);
+}
+
+.hoa1{
+    position: absolute;
+    top:1425;
+}
+.mes{
+    position: absolute;
+    top:1480;
+    left:430;
+}
+
+.h1{
+    position: absolute;
+    left:530px;
+    top:1580px;
+    
+}
+.hoten input{
+    position: absolute;
+    left:530px;
+    top:1600px;
+    width: 15%;
+    resize: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.e2{
+    position: absolute;
+    left:530px;
+    top:1640px;
+    
+}
+.email input{
+    position: absolute;
+    left:530px;
+    top:1660px;
+    width: 15%;
+    resize: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.s3{
+    position: absolute;
+    left:530px;
+    top:1700px;
+    
+}
+.sdt input{
+    position: absolute;
+    left:530px;
+    top:1720px;
+    width: 15%;
+    resize: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.l4{
+    position: absolute;
+    left:860px;
+    top:1570px;
+    
+}
+.loinhan textarea{
+    position: absolute;
+    left:860px;
+    top:1600px;
+    width: 10%;
+    resize: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+.nut input{
+    position: absolute;
+    left:900px;
+    top:1720px;
+    cursor: pointer;
+     background: #0f3959;
+     color: #fff;
+     border:none;
+     max-width: 250px;
+     padding: 12px;
+     width: 5%;
+}
+
+.nut input:hover{
+    background: brown;
+}
+
+* {
+    box-sizing:border-box
+  }
+  h2 {
+    text-align: center;
+  }
+  /* Slideshow container */
+  .slideshow-container {
+   
+    position: absolute;
+    top:130px;
+    left:310px;
+  }
+  /* Ẩn các slider */
+  .mySlides {
+      display: none;
+  }
+  /* Định dạng nội dung Caption */
+  
+   
+  /* định dạng các chấm chuyển đổi các slide */
+  .dot {
+    position: absolute;
+    top:150px;
+    left:435px;
+    cursor:pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  /* khi được hover, active đổi màu nền */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+   
+  /* Thêm hiệu ứng khi chuyển đổi các slide */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+   
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+   
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  
